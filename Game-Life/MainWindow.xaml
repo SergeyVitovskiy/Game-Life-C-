@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Game_Life"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
+        <Canvas x:Name="canvas" Margin="86,76,186,120"/>
+        <Button Content="Старт" HorizontalAlignment="Left" Margin="21,171,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="TimerLabel" Content="0" HorizontalAlignment="Left" Margin="21,217,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
